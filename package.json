@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://apasserby00.github.io/budget-splitter",
+  "homepage": "https://apasserby00.github.io/budget-splitter/",
   "scripts": {
     "dev": "vite",
     "lint": "eslint .",
