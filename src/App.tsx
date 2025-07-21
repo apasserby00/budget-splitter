@@ -19,9 +19,9 @@ const App: React.FC = () => {
   const handleSplit = () => {
     setBuckets({
       essentials: amount * 0.35,
-      discretionary: amount * 0.2,
-      donations: amount * 0.225,
-      investments: amount * 0.225,
+      discretionary: amount * 0.15,
+      donations: amount * 0.2,
+      investments: amount * 0.3,
     });
   };
 
@@ -63,7 +63,7 @@ const App: React.FC = () => {
             </span>
           </div>
           <div className="flex justify-between">
-            <span className="font-medium">Discretionary (20%)</span>
+            <span className="font-medium">Discretionary (15%)</span>
             <span>
               {amount === 0 && !String(amount)
                 ? "-"
@@ -71,7 +71,7 @@ const App: React.FC = () => {
             </span>
           </div>
           <div className="flex justify-between">
-            <span className="font-medium">Service (22.5%)</span>
+            <span className="font-medium">Service (20%)</span>
             <span>
               {amount === 0 && !String(amount)
                 ? "-"
@@ -79,7 +79,7 @@ const App: React.FC = () => {
             </span>
           </div>
           <div className="flex justify-between">
-            <span className="font-medium">Savings (22.5%)</span>
+            <span className="font-medium">Savings (30%)</span>
             <span>
               {amount === 0 && !String(amount)
                 ? "-"
