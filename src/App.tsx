@@ -8,7 +8,7 @@ interface Buckets {
 }
 
 const App: React.FC = () => {
-  const [amount, setAmount] = useState<number>(0);
+  const [amount, setAmount] = useState<number>(2370);
   const [buckets, setBuckets] = useState<Buckets>({
     essentials: 0,
     discretionary: 0,
